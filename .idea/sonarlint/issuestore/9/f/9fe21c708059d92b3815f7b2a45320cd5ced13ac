@@ -1,0 +1,13 @@
+
+”
+java:S1128"~Remove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.constants.AppConstant.API_KEY'.(£šÎ­
+”
+java:S1128"yRemove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.response.ArticleResponse'.(èüõùüÿÿÿÿ
+ 
+java:S1128"„Remove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.constants.AppConstant.ARTICLE_QUERY'.(™‡ôñúÿÿÿÿ
+“
+java:S1128
+"}Remove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.repository.ArticleRepository'.(ïŠÊœ
+V	java:S125"<This block of commented-out lines of code should be removed.(õ£•Ïøÿÿÿÿ
+Œ
+java:S1128"vRemove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.response.PostResponse'.(©ÍÃñ

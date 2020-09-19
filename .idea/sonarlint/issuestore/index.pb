@@ -1,0 +1,35 @@
+
+ 
+papp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/constants/AppConstant.java,6\d\6d18adf7a1dd6b55f1c5003ef9ba1a639ef9bf27
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+˜
+happ/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/model/Article.java,b\b\bb5dbe81a303dbbef3ee49ed76e2470949a19f11
+£
+sapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/retrofit/RetrofitRequest.java,8\9\8923a8da87f806f963980b2b00be5119b86b744a
+ž
+napp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/retrofit/ApiRequest.java,4\3\439e1ba6e37ee7a8a4421c7fccd660dbd5705d3d
+£
+sapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/response/ArticleResponse.java,7\4\7498db603e5444e3729afd507e3760ddee3c7f03
+§
+wapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/repository/ArticleRepository.java,e\3\e355523cea1fb0b532412defcdb09f32dbe5e3ee
+¦
+vapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/adapter/MovieArticleAdapter.java,7\4\7483215136af761f72181c13a7ee4c44eb7e792e
+¦
+vapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/view_model/ArticleViewModel.java,a\e\ae865bd53627f8e193cde300ce3135f99ab2d4cc
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+7
+LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
+œ
+lapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/view/MainActivity.java,3\a\3a46faf7c9021a112e0bb1a84feac8180a1ff672
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+£
+sapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/view_model/PostViewModel.java,9\f\9fe21c708059d92b3815f7b2a45320cd5ced13ac
+ 
+papp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/view/ActivitySendPost.java,5\e\5e4623fac603e4327f1585637d16f4ec43111fdb
+¤
+tapp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/repository/PostRepository.java,9\f\9f66fdcd48df7d0c70fc4f34847de529730c2d87
+ 
+papp/src/main/java/com/snipex/shantu/androidarchitecturecomponentsmvvmretrofitwithjava/response/PostResponse.java,f\7\f739f721f7c0f4d62ae78d396b7006543c77478a

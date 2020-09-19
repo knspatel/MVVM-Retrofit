@@ -1,0 +1,17 @@
+
+=
+java:S1068"'Remove this unused "TAG" private field.(‘‚™´
+w
+java:S1450"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(Çòçöûÿÿÿÿ
+z
+java:S1450"_Remove the "my_recycler_view" field and declare it as a local variable in the relevant methods.(ıß›Æùÿÿÿÿ
+u	java:S116"[Rename this field "my_recycler_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıß›Æùÿÿÿÿ
+S
+java:S1128	"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8‘õ±Ã.
+E
+java:S1874W"*Remove this use of "of"; it is deprecated.(«Ã‰Üüÿÿÿÿ
+U
+java:S1874W":Remove this use of "ViewModelProviders"; it is deprecated.(«Ã‰Üüÿÿÿÿ
+„	java:S116"jRename this field "progress_circular_movie_article" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸË”÷şÿÿÿÿ
+m
+java:S13016"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8‘õ±Ã.

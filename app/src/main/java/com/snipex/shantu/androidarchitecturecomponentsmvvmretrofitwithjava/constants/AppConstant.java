@@ -8,6 +8,9 @@ public class AppConstant {
      * when you will get an api key please replace with YOUR_API_KEY
      */
     public static final String BASE_URL = "https://newsapi.org/";
-    public static final String API_KEY = "YOUR_API_KEY";
+    public static final String API_KEY = "6985c2329f9d4a4c8bcce924e024210f";
     public static final String ARTICLE_QUERY = "movies";
+
+    public static final String BASE_URL2 = "https://jsonplaceholder.typicode.com/";
+
 }

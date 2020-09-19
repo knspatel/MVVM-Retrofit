@@ -1,0 +1,23 @@
+
+<
+java:S1659"&Declare "et_title" on a separate line.(‚æ–¬
+P	java:S125?"<This block of commented-out lines of code should be removed.(Ç£
+—
+java:S1128"|Remove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.view_model.ArticleViewModel'.(¢Èƒƒýÿÿÿÿ
+h	java:S116"SRename this field "et_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚æ–¬
+“
+java:S1128"}Remove this unused import 'com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.repository.ArticleRepository'.(ïŠÊœ
+E
+java:S1874("*Remove this use of "of"; it is deprecated.(¼õúûÿÿÿÿ
+g	java:S116"RRename this field "et_body" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚æ–¬
+o	java:S116"URename this field "btn_submit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¥ˆýÿÿÿÿ
+@
+java:S1659"*Declare "tv_response2" on a separate line.(òÏõ
+U
+java:S1874(":Remove this use of "ViewModelProviders"; it is deprecated.(¼õúûÿÿÿÿ
+D
+java:S21405")Use "java.util.Random.nextInt()" instead.(Œ“Ï‹ùÿÿÿÿ
+k	java:S116"VRename this field "tv_response" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÏõ
+l	java:S116"WRename this field "tv_response2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÏõ
+=
+java:S1068"'Remove this unused "TAG" private field.(Ë‡Ü©
