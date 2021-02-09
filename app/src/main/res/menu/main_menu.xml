@@ -5,4 +5,9 @@
             android:id="@+id/api_calls"
             android:title="API calls"
             app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/grid"
+        android:title="grid"
+        app:showAsAction="never"/>
 </menu>

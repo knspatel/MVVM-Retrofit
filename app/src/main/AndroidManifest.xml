@@ -26,6 +26,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".view.GifActivity"
+            android:screenOrientation="portrait"/>
+
         <activity android:name=".view.ActivitySendPost"
             android:screenOrientation="portrait"/>
 
