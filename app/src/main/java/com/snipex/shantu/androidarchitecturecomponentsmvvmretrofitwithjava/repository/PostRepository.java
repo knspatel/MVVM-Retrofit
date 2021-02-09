@@ -23,8 +23,6 @@ public class PostRepository {
     }
 
     public LiveData<Post> sendPostData(Post mPost) {
-
-
         final MutableLiveData<Post> data = new MutableLiveData<>();
         apiRequest.savePost(mPost)
                 .enqueue(new Callback<Post>() {

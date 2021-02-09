@@ -1,52 +1,11 @@
 package com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.model;
 
-import androidx.annotation.NonNull;
-import androidx.room.ColumnInfo;
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
+public class Article2 {
 
-import com.google.gson.annotations.SerializedName;
-
-import java.io.Serializable;
-
-@Entity(tableName = "Article")
-public class Article implements Serializable {
-
-    @PrimaryKey(autoGenerate = true)
-    @NonNull
-    @ColumnInfo(name = "id")
-    @SerializedName("id")
-    private int id;
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    @NonNull
-    @ColumnInfo(name = "title")
-    @SerializedName("title")
     private String title;
-
-    @NonNull
-    @ColumnInfo(name = "author")
-    @SerializedName("author")
     private String author;
-
-    @NonNull
-    @ColumnInfo(name = "urlToImage")
-    @SerializedName("urlToImage")
     private String urlToImage;
-
-    @NonNull
-    @ColumnInfo(name = "publishedAt")
-    @SerializedName("publishedAt")
     private String publishedAt;
-
-    @NonNull
-    @ColumnInfo(name = "description")
-    @SerializedName("description")
     private String description;
 
     public String getTitle() {

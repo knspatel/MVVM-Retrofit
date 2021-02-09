@@ -1,4 +1,4 @@
-package com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.model;
+package com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.db.entity;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -10,9 +10,9 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 @Entity(tableName = "Article")
-public class Article implements Serializable {
+public class ArticleEntity implements Serializable {
 
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey
     @NonNull
     @ColumnInfo(name = "id")
     @SerializedName("id")

@@ -25,8 +25,6 @@ public class ArticleRepository {
         final MutableLiveData<ArticleResponse> data = new MutableLiveData<>();
         apiRequest.getMovieArticles(query, key)
                 .enqueue(new Callback<ArticleResponse>() {
-
-
                     @Override
                     public void onResponse(Call<ArticleResponse> call, Response<ArticleResponse> response) {
                         Log.d(TAG, "onResponse response:: " + response);
@@ -37,7 +35,6 @@ public class ArticleRepository {
                             Log.d(TAG, "articles title pos 0:: " + response.body().getArticles().get(0).getTitle());
                         }
                     }
-
                     @Override
                     public void onFailure(Call<ArticleResponse> call, Throwable t) {
                         data.setValue(null);

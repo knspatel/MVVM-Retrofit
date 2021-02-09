@@ -1,6 +1,7 @@
 package com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.R;
 import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.model.Article;
+import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.view.MapsActivity;
 
 import java.util.ArrayList;
 
@@ -49,7 +51,7 @@ public class MovieArticleAdapter extends RecyclerView.Adapter<MovieArticleAdapte
         return articleArrayList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private final ImageView imgViewCover;
         private final TextView tvTitle;
         private final TextView tvAuthorAndPublishedAt;
@@ -62,6 +64,18 @@ public class MovieArticleAdapter extends RecyclerView.Adapter<MovieArticleAdapte
             tvTitle=(TextView) itemView.findViewById(R.id.tvTitle);
             tvAuthorAndPublishedAt=(TextView) itemView.findViewById(R.id.tvAuthorAndPublishedAt);
             tvDescription=(TextView) itemView.findViewById(R.id.tvDescription);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+
+            Article article = articleArrayList.get(getAdapterPosition());
+
+            Intent intent = new Intent(context, MapsActivity.class);
+            intent.putExtra("article", article);
+            context.startActivity(intent);
+
         }
     }
 }
