@@ -2,6 +2,7 @@ package com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.retr
 
 import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.model.Post;
 import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.response.ArticleResponse;
+import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.response.GetApiResponse;
 import com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.response.PostResponse;
 
 import retrofit2.Call;
@@ -29,4 +30,9 @@ public interface ApiRequest {
                        // @Field("body") String body,
                       //  @Field("userId") long userId
                         );
+
+
+    @GET("android/jsonandroid")
+    Call<GetApiResponse> getAndroidList(
+          );
 }

@@ -5,10 +5,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import static com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.constants.AppConstant.BASE_URL;
 import static com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.constants.AppConstant.BASE_URL2;
+import static com.snipex.shantu.androidarchitecturecomponentsmvvmretrofitwithjava.constants.AppConstant.BASE_URL3;
 
 public class RetrofitRequest {
 
-    private static Retrofit retrofit , retrofit2;
+    private static Retrofit retrofit , retrofit2 ,retrofit3;
 
 
     public static Retrofit getRetrofitInstance() {
@@ -19,6 +20,16 @@ public class RetrofitRequest {
                     .build();
         }
         return retrofit;
+    }
+
+    public static Retrofit getRetrofitInstance3() {
+        if (retrofit3 == null) {
+            retrofit3 = new retrofit2.Retrofit.Builder()
+                    .baseUrl(BASE_URL3)
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
+        }
+        return retrofit3;
     }
 
 

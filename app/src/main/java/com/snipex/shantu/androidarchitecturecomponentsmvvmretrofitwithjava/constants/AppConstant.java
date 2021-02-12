@@ -12,5 +12,7 @@ public class AppConstant {
     public static final String ARTICLE_QUERY = "movies";
 
     public static final String BASE_URL2 = "https://jsonplaceholder.typicode.com/";
+    public static final String BASE_URL3 = "http://api.learn2crack.com/";
+
 
 }

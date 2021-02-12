@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, GifActivity.class));
                 return true;
 
+            case R.id.get:
+                startActivity(new Intent(this, ActivityGet.class));
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

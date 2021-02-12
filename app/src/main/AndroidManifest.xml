@@ -16,6 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         android:largeHeap="true">
         <activity android:name=".view.MainActivity"
             android:screenOrientation="portrait">
@@ -30,6 +31,9 @@
             android:screenOrientation="portrait"/>
 
         <activity android:name=".view.ActivitySendPost"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".view.ActivityGet"
             android:screenOrientation="portrait"/>
 
         <activity android:name=".view.MapsActivity"
